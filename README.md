@@ -23,3 +23,10 @@ Version Control is a system that helps a developer to keep track of all the chan
 - ## Explain the difference between git fetch and git pull
 
 **Git fetch** is a command used to fetch all changes from a remote repository to the local repository. It doesn’t make any changes to the working directory while **Git pull** gets all changes from a remote repository and merges these changes automatically to the working directory.
+
+- ## Explain in simple terms git rebase and the command for it
+
+**Git Rebase**-
+Rebasing in Git is a process of integrating a series of commits on top of another base tip. It takes all the commits of a branch and appends them to the commits of a new branch
+
+![Alt](https://media.licdn.com/dms/image/v2/D4D12AQHQqYpzC7rHBw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1690994617726?e=2147483647&v=beta&t=dDEjd2QoZVKbiPnktFzpo1NZ14PVcVXMmPEvUikbSkY)
