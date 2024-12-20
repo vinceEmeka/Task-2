@@ -27,6 +27,20 @@ Version Control is a system that helps a developer to keep track of all the chan
 - ## Explain in simple terms git rebase and the command for it
 
 **Git Rebase**-
-Rebasing in Git is a process of integrating a series of commits on top of another base tip. It takes all the commits of a branch and appends them to the commits of a new branch
+Rebasing in Git is a process of integrating a series of commits on top of another base tip. It takes all the commits of a branch and appends them to the commits of a new branch.
 
 ![Alt](https://media.licdn.com/dms/image/v2/D4D12AQHQqYpzC7rHBw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1690994617726?e=2147483647&v=beta&t=dDEjd2QoZVKbiPnktFzpo1NZ14PVcVXMmPEvUikbSkY)
+
+**Git rebase Command:** _git rebase --interactive OTHER-BRANCH-NAME_
+
+- ## Explain in simple terms cherry-pick and the command for it
+
+**Git cherry-pick** command chooses a specific commit from one branch and applies it to another branch. If you commit changes to the wrong branch or want to make the same changes to another branch, you can cherry-pick the commit to apply the changes to another branch It’s great for fixing mistakes and helps maintain a clean and efficient code history.
+
+![Alt](https://media.geeksforgeeks.org/wp-content/uploads/20220302150302/BeforeCherryPick.jpg)
+**_before cherry pick_**
+
+![Alt](https://media.geeksforgeeks.org/wp-content/uploads/20220302150549/AfterCherryPick.jpg)
+**_after cherry pick_**
+
+**Git cherry-pick Command:** \_git cherry-pick (commit-hash)
