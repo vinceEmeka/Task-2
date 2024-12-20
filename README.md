@@ -35,7 +35,7 @@ Rebasing in Git is a process of integrating a series of commits on top of anothe
 
 - ## Explain in simple terms cherry-pick and the command for it
 
-**Git cherry-pick** command chooses a specific commit from one branch and applies it to another branch. If you commit changes to the wrong branch or want to make the same changes to another branch, you can cherry-pick the commit to apply the changes to another branch It’s great for fixing mistakes and helps maintain a clean and efficient code history.
+**Git cherry-pick** command chooses a specific commit from one branch and applies it to another branch. If you commit changes to the wrong branch or want to make the same changes to another branch, you can cherry-pick the commit to apply the changes to another branch. It’s great for fixing mistakes and helps maintain a clean and efficient code history.
 
 ![Alt](https://media.geeksforgeeks.org/wp-content/uploads/20220302150302/BeforeCherryPick.jpg)
 **_before cherry pick_**
@@ -43,4 +43,4 @@ Rebasing in Git is a process of integrating a series of commits on top of anothe
 ![Alt](https://media.geeksforgeeks.org/wp-content/uploads/20220302150549/AfterCherryPick.jpg)
 **_after cherry pick_**
 
-**Git cherry-pick Command:** \_git cherry-pick (commit-hash)
+**Git cherry-pick Command:** _git cherry-pick (commit-hash)_
