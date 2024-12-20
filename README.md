@@ -15,6 +15,11 @@ Version Control is a system that helps a developer to keep track of all the chan
 | Git is a command-line tool                                     | GitHub is a graphical user interface                  |
 
 - ## List 3 other github alternatives
+
   1. Bitbucket
   2. Gitea
   3. Azure Repos
+
+- ## Explain the difference between git fetch and git pull
+
+**Git fetch** is a command used to fetch all changes from a remote repository to the local repository. It doesn’t make any changes to the working directory while **Git pull** gets all changes from a remote repository and merges these changes automatically to the working directory.
